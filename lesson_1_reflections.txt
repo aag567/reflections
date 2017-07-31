@@ -1,0 +1,88 @@
+How did viewing a diff between two versions help you spot the bug?
+
+Sometimes it can be as simple as typos, leaving out a comma or semicolon, 
+or a closing parentheses that causes errors. Comparing the two files using 
+FC helps you find these typos. For more complicated problems and larger 
+files, comparing is definitely a great aid to find those changes
+that caused the new errors.
+
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called 
+								lesson_1_reflections.txt (you can replace subl 
+								with another editor here if you prefer a different one)
+
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+How could having easy access to the entire history of a file make you
+more efficient programmer in the long term?
+
+All code a person writes represents all the sweat, time, and even money 
+(whether paid or not, a programmer writes code for a living) that the programmer 
+puts into it. Saving that code in a history is like putting money in the bank. 
+A code bank, that is. Since many programmers don't have photographic memories, 
+all the code that works for that programmer is then available for her to access when
+she needs it for the current project or for future projects. 
+
+Having the entire history of a specific file easily accessible can make a programmer
+less afraid to try new things and experiment. If something doesn't go right, then she 
+can go back to the code that did. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros
+You get to decide where the code needs to be saved at a logical juncture, like adding
+a feature. Automatically saving may not save at logical points, so the commits might not
+make sense in context.
+
+Cons
+Programmers can get so immersed in coding that they might forget to commit at logical points,
+or they could be pressed for time and be tempted to do larger commits to save time.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one
+commit, while others, like Google Docs, treat each file separately?
+
+When working on apps, many of the files are connected, so it makes sense to commit and track
+them together. Google docs often only deal with discrete docs that are not connected to others.
+
+
+
+How can you use the ocmmands git log and git diff to view the history of files?
+
+git log displays all the commits, with their commit id, who committed it, and description.
+The commits at the top are the most recent.
+
+git diff compares two different commits. It can show the changes of the most recent commit that 
+you compared, so you can focus on those changes if errors are happening since the latest commit.
+
+How might using a version control make you more confident to make changes that could break
+something?
+
+As I said above, knowing that you have access to working code can make a programmer more likely
+to try something new and experiment. Programming should be a creative process and being afraid to 
+make a mistake stifles creativity.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'm using primitive version control, that is, I save projects under different name. 
+It seems to work for me but it does seem laborious, and sometimes 
+it's hard to find bugs. Also, I'm afraid to try new things without lots of preparation and entries in my journal.
+I hope to use Git to make it easier to do version control and not worry about breaking my project. I want to 
+try new things and explore.
+
+
+@@ -2,4 +2,6 @@
+B
+$
+C
+#
+%
+E

@@ -29,6 +29,11 @@ if I want to make different language versions.
 
 How do the diagrams help you visualize the branch structure?
 
+Diagrams have always helped me to learn new concepts. They are visual, concrete aids
+to understanding what is happening to otherwise abstract concepts. They helped me to 
+understand how a file becomes unreachable. 
+
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 

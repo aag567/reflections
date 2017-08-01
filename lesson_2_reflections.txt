@@ -37,5 +37,9 @@ understand how a file becomes unreachable.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches together combines all the committed changes of one branch with the 
+other. Using the diagram to show the merge will also show what commits are accessible in 
+the new merged branch and which ones aren't.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?

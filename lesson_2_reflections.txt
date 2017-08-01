@@ -41,5 +41,13 @@ Merging two branches together combines all the committed changes of one branch w
 other. Using the diagram to show the merge will also show what commits are accessible in 
 the new merged branch and which ones aren't.
 
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+
+The pros for automatic merging is that it is easy and takes less time, 
+but the con is that there will be merges that don't make sense. However, it's not
+completely automatic, as some conflicts still have to be resolved manually, as they should
+be.

@@ -39,4 +39,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Branches help to differentiate the main working code from the experimental or corrective 
+	branches. I've personally found that some code just don't work out or might need more work at
+	a future time that I can devote to it. Rather than cluttering up the master branch, making those
+	changes on new features I'm exploring in separate branches helps keep the intengrity of the 
+	production code.

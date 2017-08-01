@@ -22,12 +22,19 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    This will enable you to compare your local copy and the remote copy.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I've collaborated before on different places like Google Docs in combination with 
+....Google Drive, Dropbox, and college
+....servers. I've also collaborated on Github but without knowing how to use it well. With
+....Google Docs, there is a lot of writing to describe what you've done. I didn't really like
+    Dropbox because it seemed even more limited compared to Google's features. When I work on
+    projects on my own, I like to keep journals of what I've done, in addition to the primitive 
+....version-control in my local folders. I think that I can implement an easier system using 
+    Github and journals.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?

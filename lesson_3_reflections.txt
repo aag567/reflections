@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Using a remote repository is great for collaborative work. A team can work together on projects online
+at sites like Github.

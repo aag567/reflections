@@ -72,7 +72,7 @@ make a mistake stifles creativity.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-I'm using primitive version control, that is, I save projects under different name. 
+I'm using primitive version control for Android Development, that is, I save projects under different name. 
 It seems to work for me but it does seem laborious, and sometimes 
 it's hard to find bugs. Also, I'm afraid to try new things without lots of preparation and entries in my journal.
 I hope to use Git to make it easier to do version control and not worry about breaking my project. I want to 
